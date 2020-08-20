@@ -18,7 +18,7 @@
                     </div> 
                     <div class="info mobile-row" >
                         <h3> Location </h3>
-                        <p>324, Golden Tower, Amborkhana, Sylhet </p>
+                        <a href="https://goo.gl/maps/56N5V5xWWvEkMngm6" target="_blank"><p>324, Golden Tower, Amborkhana, Sylhet</p></a>
                     </div>
                 </div>
                 <div class="flex-container mobile-row">
@@ -27,7 +27,7 @@
                     </div> 
                     <div class="info mobile-row">
                         <h3> Email </h3>
-                        <p>junaed@deviserweb.com</p>
+                        <a href="mailto:webmaster@example.com"><p>junaed@deviserweb.com</p></a>
                     </div>
                 </div>
                 <div class="flex-container mobile-row">
@@ -36,7 +36,7 @@
                     </div> 
                     <div class="info">
                         <h3> Toll Free Call </h3>
-                        <p>0800 234 6578</p>
+                         <a href="tel:0800 234 6578"><p>0800 234 6578</p></a>
                     </div>
                 </div>
             </div>

@@ -58,16 +58,19 @@
                 <p>Lorem ipsum dolor sit amet, ectetuer nonurnmy nibh euismod tir cicdunt ut laoreet magna laoreet aliquam erat volutpat.</p>
                 <table class="infomation">  <!--Neislyginta--> 
                     <tr>
-                        <td>Name: Al Rayhan</td>
+                        <td><b>Name</b>: Al Rayhan</td>
                     </tr>
                     <tr>
-                        <td>Age: 23 Years</td>
+                        <td><b>Age</b>: 23 Years</td>
                     </tr>
                     <tr>
-                        <td>Email: mail@deviserweb.com</td>
+                        <td><b>Email</b>: mail@deviserweb.com</td>
                     </tr>
                     <tr>
-                        <td>Address: 24, Golden Street, New</td>
+                        <td><b>Web</b>: Deviserweb.com</td>
+                    </tr>
+                    <tr>
+                        <td><b>Address</b>: 24, Golden Street, New </td>
                     </tr>
                 </table>
             </div>
@@ -86,14 +89,14 @@
            <div class="flex-container mobile-row">
                 <div class="row justend">
                     <div>
-                        <div class="bubble bubbl1 row mobile-row">
+                        <div class="bubble bubbl1 bubble-left row mobile-row">
                             <h3>CEO & Founder</h3><div class="where">@DeviserWeb</div>
                             <div class="moretxt">JAN 2013-     DEC 2014</div>
                             <p> Lorem ipsum dolor sit amet, consectetur et  incididunt ut labore et dolorea</p>
                         </div>
                     </div>
                     <div>
-                        <div class="bubble bubbl2 row mobile-row">
+                        <div class="bubble bubbl2 bubble-left row mobile-row">
                             <h3>Marketing Manas</h3><div class="where">@StarLab</div>
                             <div class="moretxt">JAN 2013-     DEC 2014</div>
                             <p> Lorem ipsum dolor sit amet, consectetur et  incididunt ut labore et dolorea</p>
@@ -105,14 +108,14 @@
                 </div>
                 <div class="row ">
                     <div>
-                        <div class="bubble bubbl3 row mobile-row">
+                        <div class="bubble bubbl3 bubble-right row mobile-row">
                             <h3>UI/UX Designer</h3><div class="where">@Academy</div>
                             <div class="moretxt">JAN 2013-     DEC 2014</div>
                             <p> Lorem ipsum dolor sit amet, consectetur et  incididunt ut labore et dolorea</p>
                         </div>
                     </div>
                     <div>
-                        <div class="bubble bubbl4 row mobile-row">
+                        <div class="bubble bubbl4 bubble-right row mobile-row">
                             <h3>Creative Director</h3><div class="where">@Academy</div>
                             <div class="moretxt">JAN 2013-     DEC 2014</div>
                             <p> Lorem ipsum dolor sit amet, consectetur et  incididunt ut labore et dolorea</p>
@@ -130,14 +133,14 @@
             <div class="flex-container mobile-row">
                 <div class="row justend">
                     <div>
-                        <div class="bubble bubbl1 row mobile-row">
+                        <div class="bubble bubbl1 bubble-left row mobile-row">
                             <h3>Art & Multimedia</h3><div class="where">@Oxford University</div>
                             <div class="moretxt">JAN 2013-     DEC 2014</div>
                             <p> Lorem ipsum dolor sit amet, consectetur et  incididunt ut labore et   dolorea</p>
                         </div>
                     </div>
                     <div>
-                        <div class="bubble bubbl2 row mobile-row">
+                        <div class="bubble bubbl2 bubble-left row mobile-row">
                             <h3>Post Graduation</h3><div class="where">@Lusofona College</div>
                             <div class="moretxt">JAN 2013-     DEC 2014</div>
                             <p> Lorem ipsum dolor sit amet, consectetur et  incididunt ut labore et dolorea</p>
@@ -149,14 +152,14 @@
                 </div>
                 <div class="row">
                     <div>
-                        <div class="bubble bubbl3 row mobile-row">
+                        <div class="bubble bubbl3 bubble-right row mobile-row">
                             <h3>High Schoolas</h3><div class="where">@AIUBSss</div>
                             <div class="moretxt">JAN 2013-     DEC 2014</div>
                             <p> Lorem ipsum dolor sit amet, consectetur et  incididunt ut labore et dolorea</p>
                         </div>
                     </div>
                     <div>
-                        <div class="bubble bubbl4 row mobile-row">
+                        <div class="bubble bubbl4 bubble-right row mobile-row">
                             <h3>Bachelor Degree</h3><div class="where">@Leading University</div>
                             <div class="moretxt">JAN 2013-     DEC 2014</div>
                             <p> Lorem ipsum dolor sit amet, consectetur et  incididunt ut labore et dolorea</p>

@@ -40,6 +40,7 @@ hr {
     position: fixed;
     width: 100%; 
     display: block;
+    z-index: 1;
     
 }
 
@@ -54,7 +55,7 @@ hr {
 
 .container {
     max-width: 1100px;
-    margin: 0 auto;
+    margin: 0 auto; 
 }
 
 .flex-container {
@@ -67,8 +68,6 @@ hr {
 }
 
 /**** NAVIGACIJA ****/
-
-
 
 .menu {
 	background:#353541;
@@ -87,6 +86,7 @@ hr {
 	letter-spacing:2px;
     text-align: center;
 	text-transform:uppercase;
+    margin: 0 15px;
 }
 .menu ul li:hover {
 	background:#1a1a20;
@@ -97,7 +97,6 @@ hr {
     color: #c9c9cc;
     font-size: 1.474rem;
     text-decoration: none;
-    margin: 0 15px;
     text-align: center;
     
 }
@@ -139,7 +138,7 @@ hr {
 }   
 
 section > .container {
-    padding: 80px 95px 80px 115px;
+    padding: 80px 2% 80px 115px;
 }
 
 .hero h1 {
@@ -175,7 +174,7 @@ section > .container {
     color: #ffffff;
     text-align: center;
 }
-/****** About Me ******/
+/****** ABOUT ME ******/
     
 
 .section-left {
@@ -227,8 +226,7 @@ section > .container {
 }
 
 .section-right .abselfy img {
-    width: 100%;
-   
+   width: 80%;
 }
 
 #more {
@@ -245,13 +243,40 @@ section > .container {
     background-color: #353541;
     max-width: 315px;
     border-radius: 15px;    
+    position:relative;
+}
+
+.bubble-right ::before {
+  content: "";
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  border-left: 10px solid transparent;
+  border-right: 10px solid #353541;
+  border-top: 10px solid #353541;
+  border-bottom: 10px solid transparent;
+  left: -17px;
+  top: 10px;
+}
+
+.bubble-left::before {
+  content: "";
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  border-left: 10px solid #353541;
+  border-right: 10px solid transparent;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid #353541;
+  right: -15px;
+  top: 100px;
 }
 
 div .bubbl1 {
     margin-top: 60px;
 }
 
-div .bubbl2 {
+div .bubbl2 {   
     margin-top: 135px ;
 
 }
@@ -297,7 +322,7 @@ div .bubbl3 {
     color: #ffffff; 
 }
 
-/* My Skills */
+/* MY SKILLS */
 
 #progressBar, #progressBar1,#progressBar2,#progressBar3,#progressBar4,#progressBar5 {
     max-width: 260px;
@@ -311,7 +336,7 @@ div .bubbl3 {
     height: 100%;
     color: #fff;
     text-align: right;
-    line-height: 10px; /* same as #progressBar height if we want text middle aligned */
+    line-height: 10px;
     width: 0;
     background-color: #fb6470;
 }
@@ -333,7 +358,8 @@ div .bubbl3 {
     flex-direction: column;
     margin-bottom: 0;
 }
-/* Leave Message */
+
+/* LEAVE MESSAGE */
 
 .contactmeh2 {
     font-size: 1.571rem;
@@ -350,7 +376,6 @@ input[type=text], input, textarea {
     border: 1px solid #353541;
     box-sizing: border-box;   
     margin-bottom: 21px;
-    
 }
 
 textarea {
@@ -392,6 +417,10 @@ i {
     font-size: 1rem;
 }
 
+.info a {
+    text-decoration: none;
+}
+
 .icons {
     display: flex;
     flex-direction: column;
@@ -402,13 +431,7 @@ i {
     align-items: center;
 }
 
-.contacts .vertical { 
-    border-left: 1px solid #cccccc; 
-    height: 250px; 
-    position:absolute;
-} 
-
-/****** footeris *******/
+/****** FOOTER *******/
 
 .footer {
     padding: 10px 0;
@@ -437,7 +460,7 @@ i .fab-twitter {
     color: #69d4d8;
 }
 
-
+/* MOBILE VERSION */ 
 
 @media all and (min-width:1025px) {
     .hide-desktop {
@@ -452,18 +475,24 @@ i .fab-twitter {
     .mobile-row {
         flex-direction: row;
     }
+    
+    section > .container {
+        padding: 80px 5%;
+    }
 }
 
 @media all and (max-width:768px) {
     .hide-mobile {
         display: none;
     }
-    .hero p {
-        max-width: 768px;
+    .section-right .abselfy img {
+        width: 100%;
     }
-    .container {
-    max-width: 768px;
+    .menu a{
+        font-size: 1rem; 
+        justify-content: center;
     }
+
     .section-right .abselfy{
     margin: 50px;
     }
@@ -497,7 +526,6 @@ i .fab-twitter {
     div .bubbl4 {
     margin: 0px ;
     } 
-    
 }
 
 @media all and (max-width:450px) {
@@ -507,13 +535,15 @@ i .fab-twitter {
     .mobile-row {
         flex-direction: row;
     }
-    
+     .top-nav a{
+        font-size: 1.2rem; 
+    }
     form {
         margin-bottom: 30px;
     }
     
-    .contact-form {
-        margin-left: 35px;
+    .section-right .abselfy img {
+        width: 100%;
     }
 }
 
@@ -527,6 +557,9 @@ i .fab-twitter {
     .mobile-row {
         flex-direction: row;
     }
+    .section-right .abselfy img {
+        width: 100%;
+    }
 }
 
 @media all and (max-width: 414px) {
@@ -539,13 +572,15 @@ i .fab-twitter {
     .mobile-row {
         flex-direction: row;
     }
+    .section-right .abselfy img {
+        width: 100%;
+    }
 }
     
 @media all and (max-width: 375px) {
     .hide-mobile {
         display: none;
     }
-
     .container {
     max-width: 375px;
     }
@@ -556,6 +591,10 @@ i .fab-twitter {
  
      .mobile-row {
         flex-direction: row;
+    }
+    
+    .section-right .abselfy img {
+        width: 100%;
     }
     
     .section-left p {
@@ -619,4 +658,6 @@ i .fab-twitter {
         margin: 5px;
     }
 }
+    
+
 

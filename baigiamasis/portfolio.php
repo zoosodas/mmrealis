@@ -24,7 +24,7 @@
             <button class="mybtn "onclick="myFunction()" id="myBtn">More about me</button> 
         </div>
         <div class="container flex-container">
-            <nav>
+            <nav class="top-nav">
                 <div class="menu hide-mobile">
                     <ul class="flex-container">
                         <li><a href="index.php">Home</a></li>
@@ -67,21 +67,21 @@
                                 <h3 class="contformat">Marketing Partner</h3><label>Branging UI/UX Article</label><a href="#"><p class="contformat1">View project ></p></a>
                             </div>
                             <div class="portpic portpic2">
-                                <img src="images/webdesign2.png" alt="Web Design">
+                                <img src="images/music3.png" alt="Web Design">
                                 <h3 class="contformat">Website Design</h3><label>Branging UI/UX Article</label><a href="#"><p class="contformat1">View project ></p></a>
                             </div>
                             <div class="portpic portpic3">
-                                <img src="images/music3.png" alt="Music">
+                                <img src="images/marketingpartners5.png" alt="Music">
                                 <h3 class="contformat">Music Player Design</h3><label>Branging UI/UX Article</label><a href="#"><p class="contformat1">View project ></p></a>
                             </div>
                         </div>
                         <div class="column">
                             <div class="portpic portpic4">
-                                <img src="images/partners4.png" alt="Partners">
+                                <img src="images/webdesign2.png" alt="Partners">
                                 <h3 class="contformat">Marketing Partner</h3><label>Branging UI/UX Article</label><a href="#"><p class="contformat1">View project ></p></a>
                             </div>
                             <div class="portpic portpic5">
-                                <img src="images/marketingpartners5.png" alt="Marketing Partners">
+                                <img src="images/partners4.png" alt="Marketing Partners">
                                 <h3 class="contformat">Marketing Partner</h3><label>Branging UI/UX Article</label><a href="#"><p class="contformat1">View project ></p></a>
                             </div>
                             <div class="portpic portpic6">
